@@ -4,12 +4,9 @@ public class xyz {
 	public void m1()
 	{
 
-		int a=10;
-		int b=20;
-		int d=20;
-		int c=a+b;
-		
 		System.out.println("xyz:m1()method for learing");
-
+		F1 f1=new F1();
+		int result=f1.add(10,20);
+		System.out.println("Result:"+result);
 	}
 }
