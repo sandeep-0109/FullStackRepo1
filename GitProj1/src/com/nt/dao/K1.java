@@ -5,4 +5,8 @@ public class K1 {
 	{
 		return a+b;
 	}
+	public float calcSimpleIntrestAmount(float p, float r,float t)
+	{
+		return p*t*r/100;
+	}
 }
